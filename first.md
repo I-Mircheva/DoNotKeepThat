@@ -2,8 +2,6 @@
 Secret Notes
 ============
 
-# DoNotKeepThat ;)
-
 Simple App For Sending Notes
 ----------------------------
 
