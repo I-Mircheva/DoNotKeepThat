@@ -28,7 +28,7 @@ class HiddenNotesController < ApplicationController
 
     respond_to do |format|
       if @hidden_note.save
-        format.html { redirect_to @hidden_note, notice: 'Hidden note was successfully created.' }
+        format.html { redirect_to @hidden_note, notice: 'Hidden note was successfully created.'}
         format.json { render :show, status: :created, location: @hidden_note }
       else
         format.html { render :new }

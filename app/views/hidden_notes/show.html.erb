@@ -1,9 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Your note:</strong>
+  <strong>Your note: </strong>
   <%= @hidden_note.your_note %>
 </p>
+<p>
+  <strong>It's URL: https://do-not-keep-that.herokuapp.com/hidden_notes/<%=@hidden_note.id %></strong>
+</p>
 
-<%= link_to 'Edit', edit_hidden_note_path(@hidden_note) %> |
-<%= link_to 'Back', hidden_notes_path %>
+<!-- <%= link_to 'Edit', edit_hidden_note_path(@hidden_note) %> | -->
+<%= link_to 'Home', hidden_notes_path %>
