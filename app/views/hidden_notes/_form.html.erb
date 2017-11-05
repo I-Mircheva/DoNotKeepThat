@@ -12,8 +12,8 @@
 <% end %>
 
 <div class="field">
-  <%= form.label :your_note %>
-  <%= form.text_field :your_note, id: :hidden_note_your_note %>
+  <%= simple_format(form.label :your_note) %>
+  <%= form.text_area :your_note, id: :hidden_note_your_note %>
 </div>
 
 <div class="actions">
