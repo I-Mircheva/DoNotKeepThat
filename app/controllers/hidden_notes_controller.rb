@@ -46,7 +46,7 @@ end
        else
          respond_to do |format|
              format.json {
-               params[:hidden_note] = {"your_note" => params[:hidden_note]}
+               params[:hidden_note] = {"your_note" => params[:message]}
 
                @hidden_note = HiddenNote.create(hidden_note_params)
 
